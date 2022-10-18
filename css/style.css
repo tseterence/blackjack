@@ -1,0 +1,34 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+html {
+    background: darkgreen;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#dealerContainer, #playerContainer {
+    height: 225px;
+}
+
+img {
+    width: 120px;
+}
